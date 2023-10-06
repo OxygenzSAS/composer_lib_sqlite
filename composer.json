@@ -1,0 +1,21 @@
+{
+    "name": "oxygenzsas/composer_lib_sqlite",
+    "description": "Une classe de gestion de Bdd sqlite pour mon framework\n\n",
+    "license": "MIT",
+    "keywords": ["bdd","sqlite"],
+    "authors": [
+        {
+            "name": "nvanhaezebrouck",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OxygenzSAS\\BddSqlite\\" : "src/"
+        }
+    },
+    "require": {
+        "oxygenzsas/composer_lib_interfaces": "^0.2",
+        "ext-pdo": "*"
+    }
+}
